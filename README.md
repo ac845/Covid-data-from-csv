@@ -76,3 +76,4 @@ print("\nThis is the data of a random day:\n")
 for key, value in rand_day.items():
     print("{} : {}".format(key,value))
 ```
+finished
