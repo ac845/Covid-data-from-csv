@@ -1,0 +1,40 @@
+Project 1: Data Visualization of Covid analysis with csv file
+
+In this project, you will be working with a CSV file that contains data about the Covid-19 cases in a certain region. The CSV file will have columns for the date, the number of new cases, the number of deaths, and the number of recovered cases. 
+
+Your task is to read the data from the CSV file and create a dictionary for each day, with the date as the key and the other data as values. Then, you will create a list of these dictionaries. 
+
+You will then use this data to calculate and print the total number of cases, deaths, and recoveries. You will also calculate the average number of new cases per day. 
+
+Finally, you will use the random module to select a random day from the data and print the data for that day.
+
+Estimated time to complete: 60 minutes
+
+
+
+covid_data.csv:
+```
+date,new_cases,deaths,recovered
+2020-01-01,0,0,0
+2020-01-02,0,0,0
+2020-01-03,1,0,0
+2020-01-04,0,0,0
+2020-01-05,3,0,0
+2020-01-06,0,0,1
+2020-01-07,2,0,0
+2020-01-08,1,0,0
+2020-01-09,0,0,1
+2020-01-10,1,0,0
+
+Step 1: Import the necessary modules
+```python
+import csv
+import copy
+import random
+```
+Step 2: Define your dictionary template
+Step 3: Open the CSV file and read the data
+Step 4: Calculate and print the total number of cases, deaths, and recoveries
+Step 5: Calculate the average number of new cases per day
+Step 6: Select a random day from the data and print the data for that day
+
